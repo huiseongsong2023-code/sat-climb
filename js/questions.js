@@ -21,16 +21,16 @@
  */
 (function () {
   const SKILLS = [
-    { id: 'wic', name: 'Words in Context', domain: 'Craft and Structure' },
-    { id: 'tsp', name: 'Text Structure and Purpose', domain: 'Craft and Structure' },
-    { id: 'ctc', name: 'Cross-Text Connections', domain: 'Craft and Structure' },
-    { id: 'cid', name: 'Central Ideas and Details', domain: 'Information and Ideas' },
-    { id: 'coe', name: 'Command of Evidence', domain: 'Information and Ideas' },
-    { id: 'inf', name: 'Inferences', domain: 'Information and Ideas' },
-    { id: 'bnd', name: 'Boundaries', domain: 'Standard English Conventions' },
-    { id: 'fss', name: 'Form, Structure, and Sense', domain: 'Standard English Conventions' },
-    { id: 'trn', name: 'Transitions', domain: 'Expression of Ideas' },
-    { id: 'rsy', name: 'Rhetorical Synthesis', domain: 'Expression of Ideas' },
+    { id: 'wic', name: 'Words in Context', domain: 'Craft and Structure', section: 'rw' },
+    { id: 'tsp', name: 'Text Structure and Purpose', domain: 'Craft and Structure', section: 'rw' },
+    { id: 'ctc', name: 'Cross-Text Connections', domain: 'Craft and Structure', section: 'rw' },
+    { id: 'cid', name: 'Central Ideas and Details', domain: 'Information and Ideas', section: 'rw' },
+    { id: 'coe', name: 'Command of Evidence', domain: 'Information and Ideas', section: 'rw' },
+    { id: 'inf', name: 'Inferences', domain: 'Information and Ideas', section: 'rw' },
+    { id: 'bnd', name: 'Boundaries', domain: 'Standard English Conventions', section: 'rw' },
+    { id: 'fss', name: 'Form, Structure, and Sense', domain: 'Standard English Conventions', section: 'rw' },
+    { id: 'trn', name: 'Transitions', domain: 'Expression of Ideas', section: 'rw' },
+    { id: 'rsy', name: 'Rhetorical Synthesis', domain: 'Expression of Ideas', section: 'rw' },
   ];
 
   const SEC = 'Which choice completes the text so that it conforms to the conventions of Standard English?';
